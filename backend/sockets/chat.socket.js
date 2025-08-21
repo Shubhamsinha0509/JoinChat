@@ -1,4 +1,3 @@
-// sockets/chat.socket.js
 export default function initChatSocket(io) {
   io.on("connection", (socket) => {
     console.log("User connected", socket.id);
